@@ -1,0 +1,50 @@
+
+header#portfolio-header {
+   background: url(images/Plant_Img.jpg) center / cover;
+   height: 50vh;
+   justify-content: center;
+   text-align: center;
+   color: #fafafa;
+ }
+
+h1 {
+  color: hsla(0, 0%, 100%, 0.9);
+  font-weight: bold;
+}
+
+#slogan {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-weight: lighter;
+  font-size: 1.6rem;
+}
+
+main {
+  max-width: 900px;
+}
+
+.project-description {
+  padding-left: 0;
+}
+
+project img {
+  width: 100%;
+}
+
+footer #connect {
+  bottom: 0;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+#footer-links {
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  header#portfolio-header {
+    display: block;
+  }
+}

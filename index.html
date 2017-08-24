@@ -1,45 +1,71 @@
-<html>
+<html class="mdl-js">
   <head>
-    <title></title>
     <title>Portfolio | Heidi Stetts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Material Design Lite -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.brown-green.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header id="porfolio-header">
+    <header id="portfolio-header" class="mdl-layout_header mdl-layout_header--transparent">
       <h1>Heidi Stetts</h1>
       <p id="slogan"> Front End Web Developer in Training</p>
     </header>
-    <main>
 
-      <div class="project featured-project">
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"/>
-        <h2>Featured Project Name</h2>
-        <p>Project description text</p>
+    <main class="mdl-layout_content mdl-grid">
+
+      <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+        <div class="mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+          <img src="https://photos-3.dropbox.com/t/2/AADArhYmFdh_WK-u-S_MOEPYi2xnIvxVJWDMf5b4M1AfTA/12/83168306/jpeg/32x32/1/_/1/2/Featured_Photo_Portfolio.jpeg/EN7w3kAYogIgAigC/MZCfq1NKQnQhxWH2Rxwte8Qq_Yp8eSEDwUrspb1JfAY?size=1280x960&size_mode=3" alt="project screenshot"/>
+      </div>
+      <div class="mdl-cell mdl-cell--7-col">
+        <h2 class="mdl-card_title-text">Featured Project Name</h2>
+        <p class="project-description mdl-card_supporting-text">Project description text</p>
+      </div>
+    </div>
+
+      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div class="mdl-card_media">
+        <img src="https://photos-3.dropbox.com/t/2/AAA-Y0slmwz0keVvNRSx4dWm1ojAfE0iwvmwqRDUvJnheQ/12/83168306/jpeg/32x32/1/_/1/2/Portfolio_placeholder1.jpg/EN7w3kAYnAIgAigC/3r6og0qs-GTmNrQGVQdZlhC9VrlZlRwuWY2lVwepGoo?size=1280x960&size_mode=3" alt="project screenshot"/>
+      </div>
+      <div class="mdl-card_title">
+        <h2 class="mdl-card_title-text">Project Name</h2>
+      </div>
+        <div class="mdl-card_supporting-text">Project description text</div>
       </div>
 
-      <div class="project">
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"/>
-        <h2>Project Name</h2>
-        <p>Project description text</p>
+      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div class="mdl-card_media">
+        <img src="https://photos-5.dropbox.com/t/2/AAD5yTO7PiuA9j2ovJGCId2wVYHth1mBVutJtf8VRvKPgQ/12/83168306/jpeg/32x32/1/_/1/2/Placeholder_portfolio3.jpg/EN7w3kAYngIgAigC/c7uUWAO8Ljj09bhSFNyInu_8617-J4-2KJsyzzIND3w?size=1280x960&size_mode=3" alt="Window in Fortress"/>
+      </div>
+      <div class="mdl-card_title">
+        <h2 class="mdl-card_title-text">Project Name</h2>
+      </div>
+        <div class="mdl-card_supporting-text">Project description text</div>
       </div>
 
-      <div class="project">
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
-        <h2>Project Name</h2>
-        <p>Project description text</p>
+      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div class="mdl-card_media">
+        <img src="https://photos-2.dropbox.com/t/2/AADyHKTiiLMVuavIVmyVzN_2LtIdjPof7v4ZYA5cRcPTPA/12/83168306/jpeg/32x32/1/_/1/2/Placeholder_portfolio2.jpeg/EN7w3kAYngIgAigC/S8EgslMFQxBYD9ExjB4Fba-OpcFfUkzJwvOq9L1Adr8?size=1280x960&size_mode=3" alt="Oregon Coastline"/>
       </div>
-
-      <div class="project">
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
-        <h2>Project Name</h2>
-        <p>Project description text</p>
+      <div class="mdl-card_title">
+        <h2 class="mdl-card_title-text">Project Name</h2>
       </div>
-
+        <div class="mdl-card_supporting-text">Project description text</div>
+      </div>
     </main>
-    <footer id="connect">
-        <ul id="footer-links">
-          <li> <a href="https://www.linkedin.com/in/heidistetts/">LinkedIn</a> </li>
-          <li> <a href="https://github.com/hstetts">GitHub</a>  </li>
-          <li> <a href="mailto:hstetts@gmail.com">Email</a> </li>
+
+    <footer id="connect" class="mdl-mini-footer">
+        <ul id="footer-links" class"mdl-mini-footer_link-list">
+          <li> <a href="https://www.linkedin.com/in/heidistetts/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+          <li> <a href="https://github.com/hstetts"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li> <a href="mailto:hstetts@gmail.com"<i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
         </ul>
     </footer>
   </body>
