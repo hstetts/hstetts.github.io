@@ -30,6 +30,16 @@ project img {
   width: 100%;
 }
 
+.mdl-card_supporting-text {
+  font-size: 15px;
+  padding: 8px;
+
+}
+
+.mdl-card_title {
+  padding-left: 5px;
+}
+
 footer #connect {
   bottom: 0;
   padding: 0.5rem;
