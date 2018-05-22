@@ -1,25 +1,30 @@
 
 header#portfolio-header {
-   background: url(Plant_Img.jpg) center / cover;
+   background: url(images/hero_header.jpg) center / cover;
    height: 50vh;
    justify-content: center;
    text-align: center;
    color: #fafafa;
+   margin-bottom: 50px;
  }
 
 h1 {
-  color: hsla(0, 0%, 100%, 0.9);
+  color: hsla(231, 52%, 45%, 0.66);
   font-weight: bold;
 }
 
 #slogan {
-  color: hsla(0, 0%, 100%, 0.7);
+  color: hsla(100, 25%, 25%, 0.44);
   font-weight: lighter;
   font-size: 1.6rem;
 }
 
 main {
   max-width: 900px;
+}
+
+.project {
+  margin-bottom: 20px;
 }
 
 .project-description {
@@ -33,12 +38,12 @@ project img {
 .mdl-card_supporting-text {
   font-size: 15px;
   padding: 8px;
-
 }
 
 .mdl-card_title {
   padding-left: 3px;
 }
+
 
 footer #connect {
   bottom: 0;
