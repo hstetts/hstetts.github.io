@@ -1,11 +1,12 @@
 
 header#portfolio-header {
    background: url(images/hero_header.jpg) center / cover;
-   height: 50vh;
+   height: 60vh;
    justify-content: center;
    text-align: center;
    color: #fafafa;
    margin-bottom: 50px;
+   flex-shrink: 0;
  }
 
 h1 {
@@ -16,7 +17,7 @@ h1 {
 #slogan {
   color: hsla(100, 25%, 25%, 0.44);
   font-weight: lighter;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 main {
@@ -34,6 +35,10 @@ main {
 project img {
   width: 100%;
 }
+.bio-text {
+  font-size: 20px;
+  padding: 18px;
+}
 
 .mdl-card_supporting-text {
   font-size: 15px;
@@ -43,7 +48,6 @@ project img {
 .mdl-card_title {
   padding-left: 3px;
 }
-
 
 footer #connect {
   bottom: 0;
