@@ -1,13 +1,11 @@
 
-header#portfolio-header {
+header {
    background: url(images/hero_header.jpg) center / cover;
    height: 60vh;
    justify-content: center;
    text-align: center;
-   color: #fafafa;
-   margin-bottom: 50px;
-   flex-shrink: 0;
  }
+
 
 h1 {
   color: hsla(231, 52%, 45%, 0.66);
@@ -35,6 +33,7 @@ main {
 project img {
   width: 100%;
 }
+
 .bio-text {
   font-size: 20px;
   padding: 18px;
@@ -57,14 +56,18 @@ footer #connect {
   z-index: 1;
 }
 
+body {
+  padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 1024px) {
+ header.mdl-layout__header {
+   display: flex;
+ }
+}
+
 .fa {
   font-size: 40px;
   margin-top: 20px;
   margin-right: 60px;
-}
-
-@media screen and (max-width: 1024px) {
-  header#portfolio-header {
-    display: block;
-  }
 }
