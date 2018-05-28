@@ -1,7 +1,8 @@
 
-header {
+.mdl-layout__header {
    background: url(images/hero_header.jpg) center / cover;
    height: 60vh;
+   max-width: 200vw;
    justify-content: center;
    text-align: center;
  }
