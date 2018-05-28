@@ -1,3 +1,8 @@
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
 .header-bg-image {
    position: relative;
@@ -23,7 +28,6 @@ h1 {
 .mdl-layout__content {
   padding-top: 410px;
   max-width: 900px;
-
 }
 
 
@@ -41,8 +45,10 @@ h1 {
   padding-left: 0;
 }
 
-project img {
-  width: 100%;
+.project img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .bio-text {
