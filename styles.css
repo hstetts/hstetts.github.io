@@ -1,12 +1,12 @@
 
-.mdl-layout__header {
+.header-bg-image {
+   position: relative;
    background: url(images/hero_header.jpg) center / cover;
-   height: 60vh;
-   max-width: 200vw;
+   height: 50vh;
    justify-content: center;
    text-align: center;
+   min-height: 200px;
  }
-
 
 h1 {
   color: hsla(231, 52%, 45%, 0.66);
@@ -19,8 +19,18 @@ h1 {
   font-size: 1.8rem;
 }
 
-main {
+
+.mdl-layout__content {
+  padding-top: 410px;
   max-width: 900px;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+ header.mdl-layout__header {
+   display: flex;
+ }
 }
 
 .project {
@@ -57,15 +67,6 @@ footer #connect {
   z-index: 1;
 }
 
-body {
-  padding-bottom: 5rem;
-}
-
-@media screen and (max-width: 1024px) {
- header.mdl-layout__header {
-   display: flex;
- }
-}
 
 .fa {
   font-size: 40px;

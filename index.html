@@ -11,7 +11,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-    
+
 
 
     <!-- Material Design Lite -->
@@ -24,13 +24,18 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
-    <header class="mdl-layout__header mdl-layout__header--transparent">
-      <h1>Heidi Stetts</h1>
-      <p id="slogan"> Frontend Web Developer </p>
-    </header>
 
-    <main class="mdl-layout_content mdl-grid">
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--scroll">
+        <div class="header-bg-image">
+          <h1>Heidi Stetts</h1>
+          <p id="slogan"> Frontend Web Developer </p>
+        </div>
+      </header>
+    </div>
+
+    <main class="mdl-layout__content mdl-grid">
 
       <div class="mdl-grid">
         <div class="mdl-color--white mdl-shadow--4dp content mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
@@ -58,7 +63,7 @@
 
         <div class="project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-phone mdl-card mdl-shadow--4dp">
 
-          <div class="mdl-grid mdl-cell mdl-cell--6-col mdl-cell--4-col-phone mdl-card mdl-shadow--4dp">
+          <div class="mdl-grid mdl-cell mdl-cell--6-col mdl-cell--2-col-phone mdl-card mdl-shadow--4dp">
             <div class="mdl-card_media">
               <img src="images/Pomodoro_Snapshot.png" alt="BlocTime website screenshot"/>
             </div>
@@ -70,7 +75,7 @@
             <div class="mdl-card_supporting-text">An AngularJS time management application built on the Pomodoro productivity method.</div>
           </div>
 
-          <div class="mdl-grid mdl-cell mdl-cell--6-col mdl-cell--4-col-phone mdl-card mdl-shadow--4dp">
+          <div class="mdl-grid mdl-cell mdl-cell--6-col mdl-cell--2-col-phone mdl-card mdl-shadow--4dp">
             <div class="mdl-card_media">
               <img src="images/BlocJams_Snapshot.png" alt="BlocJams" height="300" width="380"/>
             </div>
@@ -84,7 +89,7 @@
 
 
 
-        <div class="mdl-grid mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+        <div class="mdl-grid mdl-cell mdl-cell--8-col mdl-cell--2-col-phone mdl-card mdl-shadow--4dp">
           <div class="mdl-card_media">
           <img src="images/codipedia_snapshot_small.png" alt="BlocTime website screenshot" />
         </div>
@@ -96,7 +101,7 @@
           <div class="mdl-card_supporting-text">A wiki application that allows users to share public and private code snippets, tutorials, ideas.</div>
         </div>
 
-        <div class="mdl-grid mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+        <div class="mdl-grid mdl-cell mdl-cell--4-col mdl-cell--2-col-phone mdl-card mdl-shadow--4dp">
           <div class="mdl-card_media">
           <img src="images/Bloccit_Snapshot.png" alt="Bloccit App" height="240" width="340"/>
         </div>
@@ -115,7 +120,7 @@
     </main>
 
     <footer id="connect" class="mdl-mini-footer">
-<h4> Connect: </h4>
+      <h4> Connect: </h4>
 
         <div class="material-icons">
 
