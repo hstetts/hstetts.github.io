@@ -7,7 +7,7 @@ html, body {
 .header-bg-image {
    position: relative;
    background: url(images/hero_header.jpg) center / cover;
-   height: 50vh;
+   height: 60vh;
    justify-content: center;
    text-align: center;
    min-height: 200px;
