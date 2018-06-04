@@ -99,7 +99,7 @@ h1 {
 footer #connect {
   bottom: 0;
   padding: 0.5rem;
-  position: fixed;
+  position: block;
   width: 100%;
   z-index: 1;
 }
