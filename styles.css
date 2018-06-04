@@ -3,19 +3,23 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
 .nav-icon .fa {
   font-size: 20px;
   margin-bottom: 20px;
 
 }
+.mdl-layout__header {
 
+}
 .header-image-section {
    position: relative;
    background: url(images/hero_header.jpg) center / cover;
    height: 80vh;
    text-align: center;
-   min-height: 200px;
+
  }
+
 .header-bg-image {
   margin: 140px;
 }
