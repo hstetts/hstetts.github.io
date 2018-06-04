@@ -1,34 +1,51 @@
 html, body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
+  font-family: 'Poppins', 'Helvetica', sans-serif;
   margin: 0;
   padding: 0;
 }
+.nav-icon .fa {
+  font-size: 20px;
+  margin-bottom: 20px;
 
-.header-bg-image {
+}
+
+.header-image-section {
    position: relative;
    background: url(images/hero_header.jpg) center / cover;
-   height: 60vh;
-   justify-content: center;
+   height: 80vh;
    text-align: center;
    min-height: 200px;
  }
+.header-bg-image {
+  margin: 140px;
+}
 
 h1 {
-  color: hsla(231, 52%, 45%, 0.66);
-  font-weight: bold;
+  color: hsla(120, 8%, 28%, 0.56);
+  font-weight: lighter;
+  font-size: 1.4rem;
 }
 
 #slogan {
-  color: hsla(100, 25%, 25%, 0.44);
+  font-family: 'Montserrat', serif;
+  color: hsla(229, 69%, 58%, 1);
   font-weight: lighter;
-  font-size: 1.8rem;
+  font-size: 2.0rem;
+  text-shadow: 1.5px 1.5px 6px #906eabc7;
 }
 
+.mdl-layout {
+  margin-bottom: 20px;
+}
 
 .mdl-layout__content {
-  padding-top: 410px;
+  margin-top: 80px;
   max-width: 900px;
 }
+/* .snippets-bg {
+  background-image: url(images/hero_header.jpg);
+  background-size: cover;
+} */
 
 
 @media screen and (max-width: 1024px) {
@@ -52,9 +69,10 @@ h1 {
 }
 
 .bio-section {
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 50px;
 }
+
 .bio-text {
   text-align: center;
   justify-content: center;
@@ -70,6 +88,12 @@ h1 {
 
 .mdl-card_title {
   padding-left: 3px;
+}
+
+.image-card {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer #connect {
