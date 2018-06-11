@@ -4,32 +4,32 @@ html, body {
   padding: 0;
 }
 
+
 .nav-icon .fa {
   font-size: 20px;
   margin-bottom: 20px;
 
 }
-.mdl-layout__header {
+
+/* .header-image-section {
+  height: 100%;
   position: relative;
-}
-.header-image-section {
-  width: 100%;
-  height: 60vh;
-  background: url(images/hero_header.jpg) center / cover;
-  text-align: center;
- }
- 
-.header-text {
-  margin: 80px;
-}
+  overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+ }  */
+
 
 h1 {
   color: hsla(120, 8%, 28%, 0.56);
   font-weight: lighter;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 
-#slogan {
+
+
+.slogan {
   font-family: 'Montserrat', serif;
   color: hsla(229, 69%, 58%, 1);
   font-weight: lighter;
@@ -37,39 +37,34 @@ h1 {
   text-shadow: 1.5px 1.5px 6px #906eabc7;
 }
 
-.mdl-layout {
-  margin-bottom: 20px;
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+.image-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
-.mdl-layout__content {
-  margin-top: 40px;
-  max-width: 900px;
-}
 /* .snippets-bg {
   background-image: url(images/hero_header.jpg);
   background-size: cover;
 } */
 
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
  header.mdl-layout__header {
    display: flex;
  }
-}
+} */
 
-.project {
-  margin-bottom: 20px;
-}
-
-.project-description {
-  padding-left: 0;
-}
-
-.project img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
 
 .bio-section {
   margin-top: 80px;
@@ -84,20 +79,6 @@ h1 {
   margin: 5px;
 }
 
-.mdl-card_supporting-text {
-  font-size: 15px;
-  padding: 8px;
-}
-
-.mdl-card_title {
-  padding-left: 3px;
-}
-
-.image-card {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 footer #connect {
   bottom: 0;
