@@ -1,3 +1,3 @@
 # My Portfolio
 
-A showcase of all my work at Bloc.
+A showcase of all my web development work.
