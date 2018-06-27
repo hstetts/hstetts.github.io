@@ -28,14 +28,13 @@ h1 {
 }
 
 
-
-.slogan {
+/* .slogan {
   font-family: 'Montserrat', serif;
   color: hsla(229, 69%, 58%, 1);
   font-weight: lighter;
   font-size: 2.0rem;
   text-shadow: 1.5px 1.5px 6px #906eabc7;
-}
+} */
 
 /* Navbar animation */
 .navbar {
