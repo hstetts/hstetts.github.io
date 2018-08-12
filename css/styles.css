@@ -27,6 +27,16 @@ h1 {
   font-size: 1.8rem;
 }
 
+title-header {
+  color: #3f51b5;
+  font-size: 26px;
+  font-weight: 100;
+  line-height: 43.2px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+  text-decoration: none;
+}
 
 /* .slogan {
   font-family: 'Montserrat', serif;

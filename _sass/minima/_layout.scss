@@ -8,6 +8,8 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  font-weight: 300;
 }
 
 .site-title {
@@ -15,18 +17,22 @@
   font-weight: 100;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
+  margin-top: 10px;
   margin-bottom: 0;
   float: left;
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: #3f51b5;
   }
 }
 
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 
   .nav-trigger {
       display: none;
@@ -37,7 +43,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: #007bff;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -48,7 +54,7 @@
 
   @include media-query($on-palm) {
     position: absolute;
-    top: 9px;
+    top: 6px;
     right: $spacing-unit / 2;
     background-color: $background-color;
     border: 1px solid $grey-color-light;
@@ -58,8 +64,8 @@
     label[for="nav-trigger"] {
       display: block;
       float: right;
-      width: 36px;
-      height: 36px;
+      width: 26px;
+      height: 26px;
       z-index: 2;
       cursor: pointer;
     }
@@ -67,10 +73,10 @@
     .menu-icon {
       display: block;
       float: right;
-      width: 36px;
-      height: 26px;
+      width: 26px;
+      height: 14px;
       line-height: 0;
-      padding-top: 10px;
+      padding-top: 8px;
       text-align: center;
 
       > svg {
@@ -90,7 +96,7 @@
 
     .page-link {
       display: block;
-      padding: 5px 10px;
+      padding: 4px 8px;
 
       &:not(:last-child) {
         margin-right: 0;
@@ -106,32 +112,33 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  border-top: 1.8px solid $grey-color-light;
+  padding: 10px;
 }
 
 .footer-heading {
-  @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit / 2;
+  @include relative-font-size(1);
+  margin-bottom: 5px;
 }
 
 .contact-list,
 .social-media-list {
   list-style: none;
+  font-size: 12px;
   margin-left: 0;
 }
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
   color: $grey-color;
-  margin-left: -$spacing-unit / 2;
+  margin-left: -$spacing-unit / 1;
   @extend %clearfix;
 }
 
 .footer-col {
   float: left;
-  margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
+  margin-bottom: 5px;
+  padding-left: $spacing-unit / 1;
 }
 
 .footer-col-1 {
@@ -171,10 +178,76 @@
 }
 
 
+.about-img {
+  height: 40vh;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+ background: url(/images/hangingRock_about.jpg) center / cover;
+}
+
+//Photography page
+
+.photo-header {
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+  color: hsla(120, 8%, 28%, 0.56);
+  font-weight: lighter;
+  font-size: 2.8rem;
+}
+
+ .bird-img {
+ height: 50vh;
+ width: 100%;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ background: url(/images/background_img_bird.jpg) center / cover;
+ border: 8px solid transparent;
+ padding: 5px;
+ }
+
+ .row {
+  display: flex;
+  margin-left: 10px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+.column img {
+  height: 100%;
+  width: 100%;
+}
+
+ .calg-img {
+ height: 40vh;
+ width: 100%;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ background: url(/images/Calgaryimage.jpg) center / cover;
+ border: 8px solid transparent;
+ padding: 5px;
+ }
+
+
 
 /**
  * Page content
  */
+
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
