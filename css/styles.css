@@ -5,11 +5,6 @@ html, body {
 }
 
 
-.nav-icon .fa {
-  font-size: 20px;
-  margin-bottom: 20px;
-
-}
 
 /* .header-image-section {
   height: 100%;
@@ -24,7 +19,7 @@ html, body {
 h1 {
   color: hsla(120, 8%, 28%, 0.56);
   font-weight: lighter;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 title-header {
@@ -42,7 +37,7 @@ title-header {
   font-family: 'Montserrat', serif;
   color: hsla(229, 69%, 58%, 1);
   font-weight: lighter;
-  font-size: 2.0rem;
+  font-size: 29px;
   text-shadow: 1.5px 1.5px 6px #906eabc7;
 } */
 
