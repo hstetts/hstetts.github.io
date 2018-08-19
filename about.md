@@ -11,7 +11,7 @@ I have been working in Technical Support over the last three years gaining exper
 
 <p> When I’m not at work, my focus is on Web Development. I’m either working on my current project, teaching myself a new technology, or brushing up on my skills.</p>
 
-<p>When it comes to technology, knowledge acquisition is limitless. <i> And this is where my passion lies.</i></p>
+<p>What it excites me most about Web Development is that knowledge acquisition is limitless. There will always be something new to learn. </p>
 
 <!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
