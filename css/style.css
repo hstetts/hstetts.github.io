@@ -18,6 +18,10 @@ body,
   padding: 10px;
 }
 
+h4 {
+  margin-left: 0px;
+}
+
 
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {

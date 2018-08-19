@@ -1,12 +1,14 @@
 ---
-layout: blank
+layout: "blank"
 title: photography
 permalink: /photography/
 ---
 
 <h1 class="photo-header"> Photography </h1>
-<div class="bird-img">
+
+<div class="calg-img">
 </div>
+
 
 <div class="row">
 
@@ -21,5 +23,5 @@ permalink: /photography/
   </div>
 </div>
 
-<div class="calg-img">
+<div class="bird-img">
 </div>
