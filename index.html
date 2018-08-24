@@ -63,9 +63,9 @@
                     Aspiring to bridge the gap between aesthetic &amp; usability.
                 </p>
                 <p class="mb-4 pb-4">
-                  <a class="white-text" href="https://www.linkedin.com/in/heidistetts/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:30px; border:1.3px solid #a8aae4; padding: 4px; box-shadow: inset -2px 2px 2px 5px #efeff17a; border-radius: 12px;"></i></a> </li>
-                  <a class="white-text" href="https://github.com/hstetts" target="_blank"><i class="fa fa-github" style="font-size:30px; border:1.3px solid #a8aae4; padding: 4px; box-shadow: inset 0px 0px 3px 6px #efeff17a; border-radius: 22px;"></i></a> </li>
-                  <a class="white-text" href="mailto:hstetts@gmail.com" target="_blank"><i class="fa fa-envelope-o" style="font-size:29px; border:1.3px solid #a8aae4; padding: 3.5px; box-shadow: inset 1px 3px 2px 6px #efeff17a; border-radius: 6px;"></i></a> </li>
+                  <a class="white-text" href="https://www.linkedin.com/in/heidistetts/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:30px; border:1.3px solid #a8aae4; padding: 4px; box-shadow: inset -2px 2px 2px 5px #efeff17a; border-radius: 12px;"></i></a>
+                  <a class="white-text" href="https://github.com/hstetts" target="_blank"><i class="fa fa-github" style="font-size:30px; border:1.3px solid #a8aae4; padding: 4px; box-shadow: inset 0px 0px 3px 6px #efeff17a; border-radius: 22px;"></i></a>
+                  <a class="white-text" href="mailto:hstetts@gmail.com" target="_blank"><i class="fa fa-envelope-o" style="font-size:29px; border:1.3px solid #a8aae4; padding: 3.5px; box-shadow: inset 1px 3px 2px 6px #efeff17a; border-radius: 6px;"></i></a>
                 </p>
             </div>
 
@@ -164,10 +164,32 @@
         </div>
     </main>
 
-    <footer class="page-footer text-center font-small mt-4 wow fadeIn">
-        <h4></h4>
-        <div class="material-icons"> <a href="https://www.linkedin.com/in/heidistetts/"><i class="fa fa-linkedin-square"></i></a> <a href="https://github.com/hstetts"><i class="fa fa-github"></i></a> <a href="mailto:hstetts@gmail.com"><i class="fa fa-envelope-o"></i></a> </div>
+    <footer class="page-footer text-center wow fadeIn">
+      <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-5">
+          <div class="social-footer-list text-center">
+            <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><i class="fa fa-github" style="font-size:25px; color: white; border:1.3px solid #fdfdfd; padding: 4px; box-shadow: inset 0px 0px 3px 6px #efeff17a; border-radius: 22px;"></i></a>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><i class="fa fa-linkedin-square" style="font-size:25px; color: white; border:1.3px solid #fdfdfd; padding: 4px; box-shadow: inset -2px 2px 2px 5px #efeff17a; border-radius: 12px;"></i></a>
+            <a href="mailto:hstetts@gmail.com" target="_blank"><i class="fa fa-envelope-o" style="font-size:24px; color: white; border:1.3px solid #fdfdfd; padding: 3.2px; box-shadow: inset 1px 3px 2px 6px #efeff17a; border-radius: 4px;"></i></a>
+          </div>
+
+          <hr class="small">
+
+          <p class="copyright text-center">
+            <a href="#" target="_blank" style="color: #3f51b5;">Heidi Stetts</a>
+            <span>&diams;</span> 2018 <span>&diams;</span>
+            <a href="https://hstetts.github.io/" style="color: #3f51b5;">hstetts.github.io</a>
+          </p>
+        </div>
+        <div class="col">
+
+        </div>
+      </div>
+
     </footer>
+
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <!-- Bootstrap tooltips -->

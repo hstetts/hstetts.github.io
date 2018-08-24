@@ -29,5 +29,35 @@ h4 {
     background-color: #1C2331; } }
 
 /* Footer color for sake of consistency with Navbar */
+footer {
+  height: 200px;
+}
 .page-footer {
-  background-color: #1C2331; }
+  background: #749e9e6e;
+  margin-top: 25px;
+  border-top: 1.2px solid #424242bf;
+  box-shadow: inset 0px 5px 3px -3px #999;
+  padding-top: 35px;
+ }
+
+.social-footer-list {
+ margin-top: 35px;
+ margin-bottom: 20px;
+}
+.social-footer-list a {
+  margin: 2.8px;
+}
+
+hr.small {
+  margin: 15px auto;
+  width: 25px;
+}
+.copyright {
+  color: #3f51b5;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+
+}
+.copyright > span {
+  color: white;
+}

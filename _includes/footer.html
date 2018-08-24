@@ -1,4 +1,4 @@
-<footer class="site-footer h-card">
+<footer class="site-footer">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
@@ -7,23 +7,30 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
 
-              {%- include social.html -%}
-
-          </li>
-        </ul>
       </div>
 
-      <!-- <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div> -->
 
-      <!-- <div class="footer-col footer-col-3">
+        <div class="footer-col footer-col-2">
+
+        {%- include social.html -%}
+
+        <hr class="small">
+
+        <p class="copyright">
+          {{ site.title }}
+          <span>&diams;</span> 2018 <span>&diams;</span>
+          <a class="blockquote" href="https://hstetts.github.io/">hstetts.github.io</a>
+
+        </p>
+
+      </div>
+
+
+      <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
-      </div> -->
-    <!-- </div> -->
+      </div>
+    </div>
 
   </div>
 

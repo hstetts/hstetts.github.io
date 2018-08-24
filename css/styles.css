@@ -73,18 +73,3 @@ h1 {
   padding: 25px;
   margin: 5px;
 }
-
-
-footer #connect {
-  bottom: 0;
-  padding: 0.5rem;
-  position: block;
-  width: 100%;
-  z-index: 1;
-}
-
-.fa {
-  font-size: 40px;
-  margin-top: 20px;
-  margin-right: 60px;
-}
