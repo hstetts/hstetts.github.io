@@ -216,18 +216,34 @@ hr.small {
 
 //Photography page
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+@media only screen and (min-width: 470px) {
+    /* For mobile phones: */
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+}
+@media only screen and (max-width: 468px) {
+  /* For mobile phones: */
+
+  .col-2 {width: 10.66%;}
+  .col-4 {width: 26%;}
+  .col-6 {width: 52%;}
+  .col-8 {width: 64.66%;}
+  .col-10 {width: 81.33%;}
+  .col-12 {width: 98%;}
+}
+
 
 [class*="col-"]  {
   padding: 15px;
@@ -251,9 +267,9 @@ hr.small {
   justify-content: center;
   text-align: center;
   background: url(/images/Calgaryimage.jpg) center / cover;
-  border: 8px solid transparent;
-  padding: 5px;
-  box-shadow: 5px 5px 8px rgba(166, 170, 195, 0.85);
+  border: 4px solid transparent;
+  padding: 6px;
+  box-shadow: 5px 5px 8px 6px rgba(166, 170, 195, 0.85);
 }
 
 .col-4 {
@@ -261,20 +277,20 @@ hr.small {
   padding: 0;
 }
 .col-4 img {
-    height: 40%;
-    width: 85%;
-    margin-top: 5px;
-    margin-bottom: 25px;
-    padding: 12px;
-    vertical-align: middle;
-    box-shadow: 5px 5px 8px rgba(166, 170, 195, 0.85);
+  height: 45%;
+  width: 85%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 8px;
+  vertical-align: middle;
+  box-shadow: 5px 5px 8px rgba(166, 170, 195, 0.85);
 }
 .col-6 {
   margin: auto;
   padding: 0;
 }
 .col-6 img {
-    padding: 12px;
+    padding: 8px;
     vertical-align: middle;
     box-shadow: 5px 5px 8px rgba(166, 170, 195, 0.85);
 }
@@ -289,10 +305,10 @@ div.row.top-row {
 
 
 .row {
- margin-top: 20px;
+ margin: 20px 10px 30px 10px;
+
  display: flex;
- margin-left: 10px;
- margin-right: 10px;
+
 }
 
 /* Create two equal columns that sits next to each other */
@@ -320,6 +336,7 @@ div.row.top-row {
   padding: 5px;
   box-shadow: 5px 5px 8px rgba(166, 170, 195, 0.85);
 }
+
 
 
 /**
