@@ -20,6 +20,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: hstetts.github.io # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  hstetts
 linkedin_username: heidistetts
+collections:
+  albums:
+    output: true
+    permalink: /photography/:banff_gallery
 
 # Build settings
 markdown: kramdown

@@ -136,6 +136,7 @@
   margin: 3px;
 }
 
+
 hr.small {
   margin: 15px auto;
   width: 25px;
@@ -217,6 +218,45 @@ hr.small {
  background: url(/images/hangingRock_about.jpg) center / cover;
 }
 
+.about-text {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+
+.resume-header {
+  margin-top: 30px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: hsla(120, 8%, 28%, 0.56);
+  font-weight: lighter;
+  font-size: 2.8rem;
+}
+
+
+// .frame-area {
+//   display: block;
+//   justify-content: center;
+//   align: center;
+//   overflow: auto;  /* EDIT TO hidden FOR NO SCROLLBAR */
+//   border: #999999 1px solid;
+//   margin: 0px;
+//   padding: 0px;
+//   border: 4px solid transparent;
+//   box-shadow: 5px 5px 8px 3px rgba(166, 170, 195, 0.85);
+//   }
+  iframe {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 80%;
+    border: 4px solid transparent;
+    -moz-box-shadow: 5px 5px 8px 3px rgba(166, 170, 195, 0.85);
+    -webkit-box-shadow: 5px 5px 8px 3px rgba(166, 170, 195, 0.85);
+}
+
+
 //Photography page
 
 @media only screen and (min-width: 470px) {
@@ -261,6 +301,11 @@ hr.small {
   font-weight: lighter;
   font-size: 3.8rem;
 }
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+  }
 
 .calg-img {
   height: 40vh;

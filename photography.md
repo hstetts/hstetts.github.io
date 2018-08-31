@@ -10,19 +10,9 @@ permalink: /photography/
 <h1 class="photo-header"> Photography </h1>
 
 
+<iframe width="780" height="620" src="https://maphub.net/embed/35795?button=0" frameborder="0"></iframe>
 
 
-<div class="row">
-  <div class="col-6">
-    <img src="/images/ppetmp.jpg" style="width:100%">
-  </div>
-  <div class="col-4">
-    <img src="/images/banff_rv.jpeg">
-    <img src="/images/banff_mtntop.jpeg">
-    <img src="/images/banff_dtown.jpeg">
-  </div>
-</div>
-<div class="calg-img"></div>
 
 
 <!-- <div class="row">
