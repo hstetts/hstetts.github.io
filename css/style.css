@@ -1,6 +1,7 @@
 /* Required height of parents of the Full Page Intro and Intro itself */
 html,
 body,
+
 .view {
   height: 95%;
   }
@@ -12,10 +13,10 @@ body,
 .top-nav-collapse {
   background-color: #1C2331;
 }
-.navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
   position: relative;
   float: right;
-  padding: 10px;
+  padding: 5px;
 }
 
 h4 {

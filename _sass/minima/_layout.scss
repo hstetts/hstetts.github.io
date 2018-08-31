@@ -110,10 +110,10 @@
  */
 .site-footer {
   background: #749e9e6e;
-  margin-top:20px;
+  margin-top:15px;
   border-top: 1.2px solid #424242bf;
   box-shadow: inset 0px 5px 3px -3px #999;
-  padding-top: 25px;
+  padding-top: 15px;
 }
 
 .footer-heading {
@@ -145,7 +145,6 @@ hr.small {
   font-family: "Courier New", Courier, monospace;
   font-size: 12px;
   padding-top: 5px;
-  margin: 10px;
   text-align: center;
 }
 .copyright > span {
@@ -161,7 +160,7 @@ hr.small {
 
 .footer-col {
   float: left;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   padding-left: $spacing-unit / 1;
 }
 
@@ -181,24 +180,28 @@ hr.small {
 }
 
 @include media-query($on-laptop) {
-  .footer-col-1,
+  .footer-col-1 {
+    width: -webkit-calc(15% - (#{$spacing-unit} / 2));
+    width:         calc(15% - (#{$spacing-unit} / 2));
+  }
   .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(70% - (#{$spacing-unit} / 2));
+    width:         calc(70% - (#{$spacing-unit} / 2));
   }
 
   .footer-col-3 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(15% - (#{$spacing-unit} / 2));
+    width:         calc(15% - (#{$spacing-unit} / 2));
   }
 }
 
 @include media-query($on-palm) {
   .footer-col {
-    float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
     width:         calc(100% - (#{$spacing-unit} / 2));
   }
+
+
 }
 
 
@@ -246,7 +249,7 @@ hr.small {
 
 
 [class*="col-"]  {
-  padding: 15px;
+  padding: 2px 10px 2px 10px;
 }
 
 .photo-header {
