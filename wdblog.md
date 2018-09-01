@@ -1,6 +1,6 @@
 ---
 layout: default
-title: blog
+
 ---
 <div class="about-img">
 </div>

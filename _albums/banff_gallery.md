@@ -3,6 +3,14 @@ layout: "blank"
 title: Banff
 permalink: /photography/banff_gallery
 ---
+<div class="calg-img">
+  <div class="row">
+      <div class="gallery-header">
+        <p class="banff-header-text"> ab || canada </p>
+          <hr class="small-hr">
+      </div>
+    </div>
+</div>
 
 <div class="row">
   <div class="col-6">
@@ -14,4 +22,3 @@ permalink: /photography/banff_gallery
     <img src="/images/banff_dtown.jpeg">
   </div>
 </div>
-<div class="calg-img"></div>

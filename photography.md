@@ -9,8 +9,11 @@ permalink: /photography/
 
 <h1 class="photo-header"> Photography </h1>
 
+<div class="row">
 
-<iframe width="780" height="620" src="https://maphub.net/embed/35795?button=0" frameborder="0"></iframe>
+
+<iframe width="100%" height="600" src="https://maphub.net/embed/35795?button=0" frameborder="0"></iframe>
+</div>
 
 
 
