@@ -5,9 +5,11 @@ permalink: /about/
 ---
 <div class="about-img">
 </div>
+<p>Under Construction</p>
+<!-- <div class="about-text">
 
-<div class="about-text">
-<p>I have been working in Technical Support over the last three years gaining experience supporting end users, testing new software functionality, and dabbling in programming. These roles coupled with my curiosity for the inter-workings of the web served as a driving force to enroll in an intensive 52 week full stack web development program.</p>
+
+<p> - Software QA Working in working in Technical Support and  over the last three years gaining experience supporting end users, testing new software functionality, and dabbling in programming. These roles coupled with my curiosity for the inter-workings of the web served as a driving force to enroll in an intensive 52 week full stack web development program.</p>
 
 <p> When I’m not at work, my focus is on Web Development. I’m either working on my current project, teaching myself a new technology, or brushing up on my skills.</p>
 
@@ -21,7 +23,7 @@ permalink: /about/
     <iframe class="frame-area" src="https://resume.creddle.io/embed/gaf5u2v4kxw" width="800" height="650" align="center" frameborder="1" seamless>
     </iframe>
   </div>
-
+ -->
 
 
 <!--
